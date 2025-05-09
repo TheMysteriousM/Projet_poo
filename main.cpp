@@ -4,7 +4,7 @@
 int main() {
     const int windowWidth = 800;
     const int windowHeight = 600;
-    const int cellSize = 10;
+    const int cellSize = 10; // Size of each cell, in pixels
 
     // Create a simulation object
     Simulation sim(windowWidth, windowHeight, cellSize);
